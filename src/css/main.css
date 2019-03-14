@@ -1,0 +1,16 @@
+.semi__nav {
+  background-image: url("../img/bg_img.jpg");
+  /* background-image: url("paper.gif"); */
+  height: 300px; }
+
+.bck_link {
+  font-weight: bolder;
+  font-size: 23px; }
+
+.top-bar {
+  border-bottom: 3px solid #f04848; }
+
+.transparent-top {
+  background: rgba(255, 255, 250, 0.5); }
+
+/*# sourceMappingURL=main.css.map */

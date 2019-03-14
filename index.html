@@ -13,56 +13,63 @@
 
     <!-- custom css -->
     <link rel="stylesheet" href="./src/css/main.css">
+
 </head>
+
 <body>
-<!-- Top Bar -->
-<section id="top-bar" class="p-3">
-    <div class="container top-bar p-2">
-      <div class="row">
-        <div class="col-md-3">
-          <i class="fas fa-money-check-alt"></i> <span class="ml-2" style="color: darkblue;font-weight: bolder;">link <strong class="text-danger ml-3"></strong></span> 
+  <!-- Top Bar -->
+  <section id="top-bar" class="p-3">
+      <div class="container top-bar p-2">
+
+        <div class="row">
+
+            <div class="col-md-3">
+              <i class="fas fa-money-check-alt"></i> <span class="ml-2" style="color: darkblue;font-weight: bolder;">link <strong class="text-danger ml-3"></strong></span> 
+            </div>
+
+            <div class="col-md-3">
+              <i class="fas fa-question-circle"></i> <a href="{% url 'help' %}" class="ml-2 text-dark" style="font-weight: bolder;text-decoration: none;">link</a> 
+            </div>
+
+            <div class="col-md-3">
+              <i class="fas fa-mobile-alt"></i> <span class="text-danger">link</span><strong class="ml-3">link</strong>
+            </div>
+
+            <div class="col-md-3">
+                <div class="social text-right">
+                      link
+                </div>
+            </div>
+
         </div>
 
-        <div class="col-md-3">
-          <i class="fas fa-question-circle"></i> <a href="{% url 'help' %}" class="ml-2 text-dark" style="font-weight: bolder;text-decoration: none;">link</a> 
-        </div>
-
-        <div class="col-md-3">
-          <i class="fas fa-mobile-alt"></i> <span class="text-danger">link</span><strong class="ml-3">link</strong>
-        </div>
-        <div class="col-md-3">
-          <div class="social text-right">
-                 link
-          </div>
-        </div>
       </div>
-    </div>
   </section>
 
 
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg  sticky-top">
+
     <div class="container">
+
       <a class="navbar-brand" href="{% url 'index' %}">
         <img src="{% static 'src/img/logo.png' %}" class="logo" alt="">
       </a>
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <ul class="navbar-nav">
-          <li>
-            <a class="nav-link text-light" href="/" >
-                <img src="src/img/bck_logo.png" alt="BCK — The Digital Future" title="BCK — The Digital Future" class="branding">
-            </a>
-          </li>
-     
-       
+            <li>
+              <a class="nav-link text-light" href="/" >
+                  <img src="src/img/bck_logo.png" alt="BCK — The Digital Future" title="BCK — The Digital Future" class="branding">
+              </a>
+            </li>   
         </ul>
 
-        <ul class="navbar-nav ml-auto">
-        
+        <ul class="navbar-nav ml-auto">       
             <li>
               <a class="nav-link text-dark bck_link" href="/">
                link one</a>
@@ -71,14 +78,15 @@
             <li>
                 <a class="nav-link text-dark bck_link" href="/">
                  link two</a>
-              </li>
+            </li>
 
-              <li>
-                <a class="nav-link text-dark bck_link" href="/">
-                 link three</a>
-              </li>
+            <li>
+              <a class="nav-link text-dark bck_link" href="/">
+                link three</a>
+            </li>
   
         </ul>
+
       </div>
     </div>
   </nav>
@@ -92,50 +100,112 @@
       </div>
     </section>
 
+    <nav class="quick-links" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">Home</li>
+            <li class="breadcrumb-item"><a href="#" style="color:red;">Library</a></li>
+       
+        </ol>
+      </nav>
 
+    <div class="container">
+        <div class="row my-2">
+            <div class="col-md-4 section-2 border-right">
+               <h3>section one</h3>
+               <p class="lead">Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="col-md-4 section-2 border-right">
+                <h3>section one</h3>
+                <p class="lead">Lorem ipsum dolor sit amet.</p>
+             </div>
+
+             <div class="col-md-4">
+                <h3>section one</h3>
+                <p class="lead">Lorem ipsum dolor sit amet.</p>
+             </div>
+        </div>
+    </div>
     <div class="container p-3">
 
-   
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
-    vvvLorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
+       <div class="row">
+          <div class="col-md-4">
+             <p class="lead">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
+                elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
+                Lor
+             </p>
+          </div>
+          <div class="col-md-8">
+              <img src="src/img/bg_img.jpg" class="w-100" style="wdith:100%;height:500px;" alt="">
+          </div>
+       </div>
+ 
 </div>
+
+  <section class="w-100 action-to">
+      <div class="container py-3 text-light">
+          <div class="row">
+              <div class="col-md-12">
+                   <h3 class="text-center">OUR TEAMS</h3>
+                   <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ea nisi modi dicta veritatis, natus itaque dignissimos voluptate sequi quod, quisquam dolor fugit quidem eius rem fuga quia tenetur accusantium.</span>
+              </div>
+          </div>
+
+          <div class="row my-3">
+              <div class="col-md-4">
+                 <div class="card">
+                    <img src="src/img/bg_img.jpg" class="w-100 card-img-top" alt="">
+                    <div class="card-body text-dark">
+                         <h5 class="card-title">Paul Mwangi</h5>
+                         <p class="card-text">Lorem, ipsum dolor.</p>
+                    </div>
+                 </div>
+                 
+              </div>
+
+   
+
+               <div class="col-md-4">
+                  <div class="card">
+                     <img src="src/img/bg_img.jpg" class="w-100 card-img-top" alt="">
+                     <div class="card-body text-dark">
+                          <h5 class="card-title">Paul Mwangi</h5>
+                          <p class="card-text">Lorem, ipsum dolor.</p>
+                     </div>
+                  </div>
+                  
+               </div>
+
+               <div class="col-md-4">
+                  <div class="card">
+                     <img src="src/img/bg_img.jpg" class="w-100 card-img-top" alt="">
+                     <div class="card-body text-dark">
+                          <h5 class="card-title">Paul Mwangi</h5>
+                          <p class="card-text">Lorem, ipsum dolor.</p>
+                     </div>
+                  </div>
+                  
+               </div>
+          </div>
+         
+         
+      
+        </div>
+  </section>
+
+
+    <section>
+        <div class="container my-5">
+             <div class="row">
+                  <div class="col-md-12">
+                     <h3>WHAT WE DO</h3>
+                     <P class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, explicabo rerum esse ab tempora labore eaque, minus sapiente repudiandae quo quam enim? Repellendus reiciendis eos incidunt corporis ullam maxime voluptates?</P>
+                  </div>
+             </div>
+        </div>
+    </section>
 <!-- bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 

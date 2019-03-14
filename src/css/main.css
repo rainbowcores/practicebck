@@ -13,4 +13,14 @@
 .transparent-top {
   background: rgba(255, 255, 250, 0.5); }
 
+.action-to {
+  background-color: black;
+  padding: 5px; }
+
+.breadcrumb-item {
+  font-weight: bolder; }
+
+.breadcrumb {
+  border-bottom: 2px solid red; }
+
 /*# sourceMappingURL=main.css.map */

@@ -49,3 +49,73 @@
   line-height: 8px; }
 
 /*# sourceMappingURL=main.css.map */
+
+
+/* OUR TEAMS */
+/* // Small devices (landscape phones, 576px and up) */
+
+
+@media (min-width: 576px ) { 
+ 
+  .lead-text {
+  /* text-align: left !important; */
+    float: left !important;
+  }
+
+}
+
+
+  @media (min-width: 768px) { 
+     .img-bck--last {
+      margin-top: 0px !important;
+    }
+
+    .img-displaying {
+      height: 300px !important;
+   }
+
+   .lead-text {
+    /* text-align: left !important; */
+    float: left !important;
+  }
+
+  .social-icons {
+    text-align: right !important;
+  }
+
+ }
+
+
+/* IMAGE BACKGROUND SHOW */
+.img-displaying {
+   height: 200px;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+   .lead-text {
+     text-align: left !important;
+     /* float: left !important; */
+   }
+
+   .img-displaying {
+    height: 500px !important;
+ }
+ }
+
+ .custom-toggler.navbar-toggler a:focus,
+ .custom-toggler.navbar-toggler a:active
+  {
+  border-color: rgb(0, 0, 0);
+}
+ 
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(179, 0, 0);
+}
+.custom-toggler .navbar-toggler-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(9,55,244, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/* FOOTER */

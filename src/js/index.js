@@ -7,10 +7,13 @@ $(document).ready( function(){
         if (scroll >= 10 ) {
  
          $('.sticky-top').addClass("transparent-top");
+         $('a.bck_link').addClass('red-link');
  
          } else {
  
              $('.sticky-top').removeClass('transparent-top');
+             $('a.bck_link').removeClass('red-link');
+
          }
         
  

@@ -4,11 +4,7 @@
   height: 300px; }
 
 .bck_link {
-  font-weight: bolder;
   font-size: 23px; }
-
-.top-bar {
-  border-bottom: 3px solid #f04848; }
 
 .transparent-top {
   background: rgba(255, 255, 250, 0.5); }
@@ -22,5 +18,34 @@
 
 .breadcrumb {
   border-bottom: 2px solid red; }
+
+.my-nav li {
+  border-bottom: 1px solid #ddd; }
+
+.my-nav li a {
+  font-family: 'Lilita One', cursive; }
+
+.red-link {
+  color: red !important; }
+
+.profiles {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%; }
+
+.prof_card:hover > .profiles {
+  transform: scale(1.2);
+  cursor: pointer; }
+
+.prof_card:hover .prof-names {
+  transform: scale(1.2);
+  cursor: pointer; }
+
+.profiles {
+  transition: all .2s ease-in; }
+
+.prof-names {
+  transition: all .2s ease-in;
+  line-height: 8px; }
 
 /*# sourceMappingURL=main.css.map */

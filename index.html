@@ -11,6 +11,14 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
         crossorigin="anonymous">
 
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" 
+          crossorigin="anonymous">
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Lilita+One" rel="stylesheet">
+
     <!-- custom css -->
     <link rel="stylesheet" href="./src/css/main.css">
 
@@ -18,26 +26,29 @@
 
 <body>
   <!-- Top Bar -->
-  <section id="top-bar" class="p-3">
-      <div class="container top-bar p-2">
+  <section id="top-bar" class="bg-danger">
+      <div class=" container top-bar p-2">
 
         <div class="row">
 
             <div class="col-md-3">
-              <i class="fas fa-money-check-alt"></i> <span class="ml-2" style="color: darkblue;font-weight: bolder;">link <strong class="text-danger ml-3"></strong></span> 
+              <span class="ml-2 text-light" style="font-weight: bolder;">Contact us <strong class="text-danger ml-3"></strong></span> 
+              <i class="fas fa-mobile-alt"></i><strong class="ml-3">+254740169448</strong>
+            </div>
+
+            <div class="col-md-3 text-light">
+              <i class="fas fa-question-circle"></i> <a href="{% url 'help' %}" class="ml-2 text-light" style="font-weight: bolder;text-decoration: none;">Who we are</a> 
             </div>
 
             <div class="col-md-3">
-              <i class="fas fa-question-circle"></i> <a href="{% url 'help' %}" class="ml-2 text-dark" style="font-weight: bolder;text-decoration: none;">link</a> 
-            </div>
-
-            <div class="col-md-3">
-              <i class="fas fa-mobile-alt"></i> <span class="text-danger">link</span><strong class="ml-3">link</strong>
+              
             </div>
 
             <div class="col-md-3">
                 <div class="social text-right">
-                      link
+                      <a href="#"><i style="color:#4267b2" class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i style="color:#38A1F3" class="ml-2 fab fa-twitter"></i></a>
+                      <a href="#"><i style="color:#0077B5"  class="ml-2 fab fa-linkedin-in"></i></a>
                 </div>
             </div>
 
@@ -69,10 +80,11 @@
             </li>   
         </ul>
 
-        <ul class="navbar-nav ml-auto">       
+        <ul class="navbar-nav my-nav ml-auto">       
             <li>
               <a class="nav-link text-dark bck_link" href="/">
-               link one</a>
+                Our Products
+              </a>
             </li>
      
             <li>
@@ -154,10 +166,10 @@
           </div>
 
           <div class="row my-3">
-              <div class="col-md-4">
-                 <div class="card">
-                    <img src="src/img/bg_img.jpg" class="w-100 card-img-top" alt="">
-                    <div class="card-body text-dark">
+              <div class="col-md-3">
+                 <div class="prof_card py-3 shadow bg-light d-flex flex-column justify-content-around align-items-center">
+                    <img src="src/img/bg_img.jpg" class="profiles card-img-top" alt="">
+                    <div class=" text-dark mt-4 text-center prof-names flex-column justify-content-start">
                          <h5 class="card-title">Paul Mwangi</h5>
                          <p class="card-text">Lorem, ipsum dolor.</p>
                     </div>
@@ -167,27 +179,38 @@
 
    
 
-               <div class="col-md-4">
-                  <div class="card">
-                     <img src="src/img/bg_img.jpg" class="w-100 card-img-top" alt="">
-                     <div class="card-body text-dark">
-                          <h5 class="card-title">Paul Mwangi</h5>
-                          <p class="card-text">Lorem, ipsum dolor.</p>
-                     </div>
+              <div class="col-md-3">
+                <div class="prof_card py-3 shadow bg-light d-flex flex-column justify-content-around align-items-center">
+                  <img src="src/img/bg_img.jpg" class="profiles card-img-top" alt="">
+                  <div class=" text-dark mt-4 text-center prof-names flex-column justify-content-start">
+                       <h5 class="card-title">Paul Mwangi</h5>
+                       <p class="card-text">Lorem, ipsum dolor.</p>
                   </div>
-                  
                </div>
+                
+             </div>
+             <div class="col-md-3">
+              <div class="prof_card py-3 shadow bg-light d-flex flex-column justify-content-around align-items-center">
+                <img src="src/img/bg_img.jpg" class="profiles card-img-top" alt="">
+                <div class=" text-dark mt-4 text-center prof-names flex-column justify-content-start">
+                     <h5 class="card-title">Paul Mwangi</h5>
+                     <p class="card-text">Lorem, ipsum dolor.</p>
+                </div>
+             </div>
+              
+           </div>
 
-               <div class="col-md-4">
-                  <div class="card">
-                     <img src="src/img/bg_img.jpg" class="w-100 card-img-top" alt="">
-                     <div class="card-body text-dark">
-                          <h5 class="card-title">Paul Mwangi</h5>
-                          <p class="card-text">Lorem, ipsum dolor.</p>
-                     </div>
-                  </div>
-                  
-               </div>
+
+           <div class="col-md-3">
+            <div class="prof_card py-3 shadow bg-light d-flex flex-column justify-content-around align-items-center">
+              <img src="src/img/bg_img.jpg" class="profiles card-img-top" alt="">
+              <div class=" text-dark mt-4 text-center prof-names flex-column justify-content-start">
+                   <h5 class="card-title">Paul Mwangi</h5>
+                   <p class="card-text">Lorem, ipsum dolor.</p>
+              </div>
+           </div>
+            
+         </div>
           </div>
          
          
@@ -205,6 +228,36 @@
                   </div>
              </div>
         </div>
+    </section>
+
+    <section class="p-5 bg-dark text-light">
+       <div class="container">
+           <div class="row">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos obcaecati tenetur dolore vitae cum neque, enim consequuntur id quam iusto facilis ipsa placeat nihil aliquid voluptatem impedit velit vero eligendi!</p>
+           </div>
+
+           <div class="row">
+              <div class="col-md-4 text-center">
+                  <h4>my best header one</h4>
+                  <img src="src/img/bg_img.jpg" style="width:73px;height:73px;" alt="">
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus impedit ad optio unde vitae molestias inventore quam. Quod, laboriosam fugit blanditiis repudiandae, doloribus, porro ducimus obcaecati sunt similique officia reprehenderit.</p>
+              </div>
+         
+              <div class="col-md-4 text-center">
+                  <h4>my best header one</h4>
+                  <img src="src/img/bg_img.jpg" style="width:73px;height:73px;" alt="">
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus impedit ad optio unde vitae molestias inventore quam. Quod, laboriosam fugit blanditiis repudiandae, doloribus, porro ducimus obcaecati sunt similique officia reprehenderit.</p>
+              </div>
+
+              <div class="col-md-4 text-center">
+                  <h4>my best header one</h4>
+                  <img src="src/img/bg_img.jpg" style="width:73px;height:73px;" alt="">
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus impedit ad optio unde vitae molestias inventore quam. Quod, laboriosam fugit blanditiis repudiandae, doloribus, porro ducimus obcaecati sunt similique officia reprehenderit.</p>
+              </div>
+
+              
+           </div>
+       </div>
     </section>
 <!-- bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 

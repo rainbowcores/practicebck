@@ -1,0 +1,51 @@
+.semi__nav {
+  background-image: url("../img/bg_img.jpg");
+  /* background-image: url("paper.gif"); */
+  height: 300px; }
+
+.bck_link {
+  font-size: 23px; }
+
+.transparent-top {
+  background: rgba(255, 255, 250, 0.5); }
+
+.action-to {
+  background-color: black;
+  padding: 5px; }
+
+.breadcrumb-item {
+  font-weight: bolder; }
+
+.breadcrumb {
+  border-bottom: 2px solid red; }
+
+.my-nav li {
+  border-bottom: 1px solid #ddd; }
+
+.my-nav li a {
+  font-family: 'Lilita One', cursive; }
+
+.red-link {
+  color: red !important; }
+
+.profiles {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%; }
+
+.prof_card:hover > .profiles {
+  transform: scale(1.2);
+  cursor: pointer; }
+
+.prof_card:hover .prof-names {
+  transform: scale(1.2);
+  cursor: pointer; }
+
+.profiles {
+  transition: all .2s ease-in; }
+
+.prof-names {
+  transition: all .2s ease-in;
+  line-height: 8px; }
+
+/*# sourceMappingURL=main.css.map */

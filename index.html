@@ -31,19 +31,19 @@
 
         <div class="row">
 
-            <div class="col-md-3 d-flex align-items-start">
+            <div class="col-12 col-md-3 text-center">
               <span class="ml-2 text-light" style="font-weight: bolder;">Contact us <strong class="text-danger ml-3"></strong></span> 
               <i class="fas fa-mobile-alt"></i><strong class="ml-3">+254740169448</strong>
             </div>
 
-            <div class="col-md-3 text-light">
+            <div class="col-md-3 col-6 text-light text-center">
               <i class="fas fa-question-circle"></i> <a href="{% url 'help' %}" class="ml-2 text-light" style="font-weight: bolder;text-decoration: none;">Who we are</a> 
             </div>
 
-            <div class="col-md-3"></div>
+            <div class="col-md-3 d-none"></div>
 
-            <div class="col-md-3">
-                <div class="social text-right">
+            <div class="col-md-3 col-6">
+                <div class="social text-center social-icons">
                       <a href="#"><i style="color:#4267b2" class="fab fa-facebook-f"></i></a>
                       <a href="#"><i style="color:#38A1F3" class="ml-2 fab fa-twitter"></i></a>
                       <a href="#"><i style="color:#0077B5"  class="ml-2 fab fa-linkedin-in"></i></a>
@@ -62,21 +62,16 @@
     <div class="container">
 
       <a class="navbar-brand" href="{% url 'index' %}">
-        <img src="{% static 'src/img/logo.png' %}" class="logo" alt="">
+        <!-- <img src="{% static 'src/img/logo.png' %}" class="logo" alt=""> -->
+        <img src="src/img/bck_logo.png" alt="BCK — The Digital Future" title="BCK — The Digital Future" class="branding">
       </a>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+      <button class="navbar-toggler custom-toggler text-light" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <ul class="navbar-nav">
-            <li>
-              <a class="nav-link text-light" href="/" >
-                  <img src="src/img/bck_logo.png" alt="BCK — The Digital Future" title="BCK — The Digital Future" class="branding">
-              </a>
-            </li>   
-        </ul>
+      
 
         <ul class="navbar-nav my-nav ml-auto">       
             <li>
@@ -87,12 +82,12 @@
      
             <li>
                 <a class="nav-link text-dark bck_link" href="/">
-                 link two</a>
+                Our Products</a>
             </li>
 
             <li>
               <a class="nav-link text-dark bck_link" href="/">
-                link three</a>
+                About Us</a>
             </li>
   
         </ul>
@@ -120,17 +115,17 @@
 
     <div class="container">
         <div class="row my-2">
-            <div class="col-md-4 section-2 border-right">
+            <div class="col-md-4 col-4  section-2 border-right">
                <h3>section one</h3>
                <p class="lead">Lorem ipsum dolor sit amet.</p>
             </div>
 
-            <div class="col-md-4 section-2 border-right">
+            <div class="col-md-4 col-4 section-2 border-right">
                 <h3>section one</h3>
                 <p class="lead">Lorem ipsum dolor sit amet.</p>
              </div>
 
-             <div class="col-md-4">
+             <div class="col-md-4 col-4">
                 <h3>section one</h3>
                 <p class="lead">Lorem ipsum dolor sit amet.</p>
              </div>
@@ -139,17 +134,19 @@
     <div class="container p-3">
 
        <div class="row">
-          <div class="col-md-4">
-             <p class="lead">
+          <div class="col-md-8 pl-5 pr-5 pt-1  col-12 align-self-start">
+              <img src="src/img/bg_img.jpg" class="w-100 img-displaying" style="wdith:100%;" alt="">
+          </div>
+
+          <div class="col-md-4  col-12">
+             <p class="lead p-1 text-center lead-text">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
                 elit. Facilis ipsum labore possimus molestias laboriosam sapiente sit iusto omnis veniam enim assumenda odit accusamus fugiat, distinctio rem dolorum corrupti incidunt similique?
                 Lor
              </p>
           </div>
-          <div class="col-md-8">
-              <img src="src/img/bg_img.jpg" class="w-100" style="wdith:100%;height:500px;" alt="">
-          </div>
+  
        </div>
  
 </div>
@@ -164,7 +161,7 @@
           </div>
 
           <div class="row my-3">
-              <div class="col-md-3">
+              <div class="col-md-3 col-6">
                  <div class="prof_card py-3 shadow bg-light d-flex flex-column justify-content-around align-items-center">
                     <img src="src/img/bg_img.jpg" class="profiles card-img-top" alt="">
                     <div class=" text-dark mt-4 text-center prof-names flex-column justify-content-start">
@@ -177,7 +174,7 @@
 
    
 
-              <div class="col-md-3">
+              <div class="col-md-3 col-6">
                 <div class="prof_card py-3 shadow bg-light d-flex flex-column justify-content-around align-items-center">
                   <img src="src/img/bg_img.jpg" class="profiles card-img-top" alt="">
                   <div class=" text-dark mt-4 text-center prof-names flex-column justify-content-start">
@@ -187,7 +184,7 @@
                </div>
                 
              </div>
-             <div class="col-md-3">
+             <div class="col-md-3 col-6 mt-2 img-bck--last">
               <div class="prof_card py-3 shadow bg-light d-flex flex-column justify-content-around align-items-center">
                 <img src="src/img/bg_img.jpg" class="profiles card-img-top" alt="">
                 <div class=" text-dark mt-4 text-center prof-names flex-column justify-content-start">
@@ -199,7 +196,7 @@
            </div>
 
 
-           <div class="col-md-3">
+           <div class="col-md-3 col-6 mt-2 img-bck--last">
             <div class="prof_card py-3 shadow bg-light d-flex flex-column justify-content-around align-items-center">
               <img src="src/img/bg_img.jpg" class="profiles card-img-top" alt="">
               <div class=" text-dark mt-4 text-center prof-names flex-column justify-content-start">
@@ -264,12 +261,12 @@
 
         <div class="row py-5">
 
-            <div class="col-lg-4 col-xs-12">
+            <div class="col-6">
                 <p class="text-light">Copyright &copy;2019 by TeamBCK</p>
             </div>
 
-            <div class="col-lg-4 col-lg-offset-4 col-xs-12">
-                <div class="text-right">  
+            <div class="col-6 ">
+                <div class="text-center">  
                   <a href="#"><i style="color:#4267b2" class="fab fa-facebook-f"></i></a>
                   <a href="#"><i style="color:#38A1F3" class="ml-2 fab fa-twitter"></i></a>
                   <a href="#"><i style="color:#0077B5"  class="ml-2 fab fa-linkedin-in"></i></a>

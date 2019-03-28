@@ -285,3 +285,24 @@ ul.social-network li a:focus {
   width:50px !important;
   height:50px;
 }
+
+.lighting {
+   border-left: 3px solid;
+   border-right: 3px solid;
+   font-family: Montserrat;
+   font-weight: 300;
+   font-size: 23px;
+   line-height: 27px;
+}
+
+.lighting-1 {
+  border-left: 3px solid;
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 27px;
+}
+
+ol li{
+  list-style-type: circle;
+}

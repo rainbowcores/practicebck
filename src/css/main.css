@@ -1,13 +1,44 @@
 .semi__nav {
-  background-image: url("../img/bg_img.jpg");
+  background-image: url("../img/bck/industries-public-1.jpg");
   /* background-image: url("paper.gif"); */
   height: 300px; }
-
+body{
+  font-family: Arial;
+}
 .bck_link {
-  font-size: 23px; }
+  /* font-size: 23px;
+  margin-left: 5px; */
+ }
+.cust-ers {
+  background-image: url("../img/bck/business-intelligence-1.png");
+  background-size: 100%;
+
+}
+
+
+.releases {
+  background-image: url("../img/press-release-header_dark.png");
+  background-size: cover;
+  opacity: 0.9;
+}
+
+ul {
+  
+}
+
+.future {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: space-around;
+}
+
+.cust-2 {
+  background-image: url("../img/bck/industries-ngos-1.jpg");
+}
 
 .transparent-top {
-  background: rgba(255, 255, 250, 0.5); }
+  background: rgba(255, 255, 250, 1); }
 
 .action-to {
   background-color: black;
@@ -17,7 +48,8 @@
   font-weight: bolder; }
 
 .breadcrumb {
-  border-bottom: 2px solid red; }
+  border-bottom: 2px solid red;
+ margin: 0px !important; }
 
 .my-nav li {
   border-bottom: 1px solid #ddd; }
@@ -48,15 +80,21 @@
   transition: all .2s ease-in;
   line-height: 8px; }
 
+
+
 /*# sourceMappingURL=main.css.map */
+
+.navi_boder {
+   border-bottom: 5px solid #000000;
+}
 
 
 /* OUR TEAMS */
 /* // Small devices (landscape phones, 576px and up) */
 
 
-@media (min-width: 576px ) { 
- 
+@media (min-width: 576px ) {
+
   .lead-text {
   /* text-align: left !important; */
     float: left !important;
@@ -65,7 +103,7 @@
 }
 
 
-  @media (min-width: 768px) { 
+  @media (min-width: 768px) {
      .img-bck--last {
       margin-top: 0px !important;
     }
@@ -92,11 +130,17 @@
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
    .lead-text {
      text-align: left !important;
      /* float: left !important; */
    }
+
+   .lites {
+    height:220px !important;
+   }
+
+  
 
    .img-displaying {
     height: 500px !important;
@@ -108,7 +152,7 @@
   {
   border-color: rgb(0, 0, 0);
 }
- 
+
 
 .custom-toggler.navbar-toggler {
   border-color: rgb(179, 0, 0);
@@ -118,5 +162,126 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 }
 
 
-/* FOOTER */
 
+/* .technology > img {
+  display: flex;
+ width:60px;
+ height:60px;
+ align-self: center;
+} */
+
+.technology  {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.highlight.primary {
+	background:#000;
+}
+
+/*--- highlight ---*/
+.highlight {
+	color:#fff;
+	padding:2px 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+
+ul.list.bigger li {
+	font-size:18px;
+	padding-left: 30px;
+}
+
+ul.list.bigger li:before {
+	font-size:18px;
+}
+
+ul.list-ok li:before {
+  content: "--";
+  margin-right: 5px;
+}
+
+ul.list.strong li {
+	font-weight:600;
+}
+
+/* styled list */
+
+ul.list {
+	list-style-type: none;
+	list-style-position: outside;
+	display: block;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+ul.list li {
+	position: relative;
+	display: block;
+	line-height:1.5em;
+	margin:0;
+	padding:0;
+	padding-left: 20px;
+}
+
+
+
+.border-r {
+  width:150px;
+  height:150px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.b-flexy {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.imagy {
+  align-self: flex-start;
+  flex-basis: 1;
+}
+
+/* footer social */
+ul.social-network {
+	list-style:none;
+	margin:0;
+}
+
+ul.social-network li {
+	display:inline;
+  margin-right:5px;
+  
+  width:50px !important;
+  height:50px;
+}
+ul.social-network li a i {
+  margin-bottom:10px;
+  
+  width:50px !important;
+  height:50px;
+}
+ul.social-network li a,ul.social-network li a i {
+	cursor:pointer;
+}
+
+ul.social-network li a i:hover,ul.social-network li a i:focus,ul.social-network li a:focus i {
+	text-decoration:none;
+}
+
+ul.social-network li a:focus {
+	outline:0;
+}
+
+.fa-facebook {
+  width:50px !important;
+  height:50px;
+}
